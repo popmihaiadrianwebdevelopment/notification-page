@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="read.js" defer></script>
+</head>
+<body>
+  <main class="notification">
+    <article class="container">
+      <div class="flex column">
+        <section class="header">
+          <div class="flex">
+            <h1>Notifications <span>3</span></h1>
+            <button class="btn" id="btn">Mark all as read</button>
+          </div>
+        </section>
+        <section>
+          <div class="card unread">
+            <div class="flex">
+              <div>
+                <img src="./assets/images/avatar-mark-webber.webp" alt="person1">
+              </div>
+              <div>
+                <div class="flex">
+                  <h3>Mark Webber <span>reacted to your recent post</span> My first tournament today!</h3>
+                  <div class="circle-unread"></div>
+                </div>
+                <p class="time">1m ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="card unread">
+            <div class="flex">
+              <div>
+                <img src="./assets/images/avatar-angela-gray.webp" alt="person2">
+              </div>
+              <div>
+                <div class="flex">
+                  <h3>Angela Gray <span>Followed Me</span></h3>
+                  <div class="circle-unread"></div>
+                </div>
+                <p class="time">5m ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="card unread">
+            <div class="flex">
+              <div>
+                <img src="./assets/images/avatar-jacob-thompson.webp" alt="person1">
+              </div>
+              <div>
+                <div class="flex">
+                  <h3>Jacob Thompson <span>has joined your group</span> <span class="blue">Chess Club</span></h3>
+                  <div class="circle-unread"></div>
+                </div>
+                <p class="time">1 day ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex">
+              <div>
+                <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="person1">
+              </div>
+              <div>
+                <div class="flex">
+                  <h3>Rizky Hasanuddin <span>sent you a private message</span></h3>
+                  <!-- <div class="circle-unread"></div> -->
+                </div>
+                <p class="time">5 days ago</p>
+                <p class="comment">
+                  Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+                  I'm already having lots of fun and improving my game.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card commentimg">
+            <div class="flex">
+              <div>
+                <img src="./assets/images/avatar-kimberly-smith.webp" alt="person1">
+              </div>
+              <div class="card-info">
+                <div class="spacebetween flex">
+                  <h3>Kimberly Smith <span>commented on your picture</span></h3>
+                  <div>
+                    <img src="./assets/images/image-chess.webp" alt=""> 
+                  </div>
+                </div>
+                <p class="time">1 week ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex">
+              <div>
+                <img src="./assets/images/avatar-nathan-peterson.webp" alt="person1">
+              </div>
+              <div>
+                <div class="flex">
+                  <h3>Nathan Peterson <span>reacted to your recent post</span> <span class="topic">5 end-game strategies to increase your win rate</span></h3>
+                  <!-- <div class="circle-unread"></div> -->
+                </div>
+                <p class="time">2 weeks ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex">
+              <div>
+                <img src="./assets/images/avatar-anna-kim.webp" alt="person1">
+              </div>
+              <div>
+                <div class="flex">
+                  <h3>Anna Kim <span>left the group</span> <span class="blue">Chess Club</span></h3>
+                  <!-- <div class="circle-unread"></div> -->
+                </div>
+                <p class="time">2 weeks ago</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </article>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/popmihaiadrianwebdevelopment">Pop Mihai Adrian</a>.
+  </div>
+</body>
+</html>
